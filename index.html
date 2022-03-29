@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="heading">fatimazahrae</h1>
+            <div class="profile">
+                <img src="images/anas01.jpg" class="pr1" />
+            </div>
+        </header>
+        <div class="pos" id="pos">
+            <div class="search">
+                <img src="images/anas01.jpg" class="pr1" />
+                <input type="text" id="on-input" placeholder="What's on your mind, Anass ?">
+            </div><hr>
+            <div class="koko">
+                <span>
+                    <ion-icon class="z3" name="videocam-outline"></ion-icon>
+                    Live video
+                </span>
+                <span>
+                    <ion-icon class="z2" name="images-outline"></ion-icon>
+                    Photo/video
+                </span>
+                <span>
+                    <ion-icon class="c3 z1" name="happy-outline"></ion-icon>
+                    Feeling/activite
+                   
+                </span>
+            </div>
+        </div>
+        <div class="create">
+                <div class="poster">
+                    <h1>Create Post</h1>
+                    <button id="rom">
+                        <ion-icon name="close-outline"></ion-icon>
+                    </button>
+                </div><hr>
+                <div class="profil">
+                    <img src="images/anas01.jpg" class="pr1">
+                    <span>Anass Chentouf</span>
+                </div>
+                <textarea rows="4" id="text"placeholder="What's your mind, Anass"></textarea>
+                <div class="icon">
+                    <input text="text" id="typo" placeholder="Enter Type">
+                    <label for="colorInput" class="ss c4">
+                        <ion-icon name="color-palette-outline"></ion-icon>
+                    </label>
+                    <input type="color" id="colorInput">
+                    <label for="myFileInput" class="ss c1">
+                       <ion-icon name="image-outline"></ion-icon>
+                    </label>
+                    <input type="file" name="file" id="myFileInput">
+                    <span class="ss c2"><ion-icon name="person-add-outline"></ion-icon></span>
+                    <span class="ss c6"><ion-icon name="location-outline"></ion-icon></span>
+                    <span class="ss c3"><ion-icon name="happy-outline"></ion-icon></span>
+                    <span class="ss c5"><ion-icon name="ellipsis-horizontal-outline"></ion-icon></span>
+                    
+                </div>
+                <button id="btn" class="b1">post</button>
+           
+        </div>
+        <div class="view">
+            <div class="box">
+                <h2 id="title">You want me to tell you a secret? You don't have to be in a </h2>
+                <img id="post-image" src="" alt="post" />
+                <div class="des">
+                    <span id="date" class="v1"></span>
+                    <span id="catego" class="v2"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
